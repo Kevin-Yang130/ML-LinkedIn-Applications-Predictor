@@ -100,8 +100,10 @@ Several regression models were implemented to predict the number of applications
 ---
 
 ## Future Work
-- Implement more advanced models, such as neural networks, for improved predictions.
-- Expand analysis to include temporal trends in job postings.
-- Build a web-based visualization dashboard to showcase findings interactively.
+- Create new features (ex. include job description keywords) to better predict applications
+- Incorporate additional data 
+- Ensure balanced representation of different job categories and locations to reduce model bias
+- Neural Network Optimization:
+- Explore alternative architectures, such as recurrent or attention-based models
 
 ---
