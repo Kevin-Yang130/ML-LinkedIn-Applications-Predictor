@@ -24,21 +24,14 @@ This project aims to predict the number of applications a job posting will recei
 ## Machine Learning Models
 Several regression models were implemented to predict the number of applications. Key models include:
 
-1. **Linear Regression**:
-   - Simple and interpretable baseline model.
-   - Useful for understanding linear relationships between features and target variable.
-
-2. **Ridge Regression**:
-   - Adds L2 regularization to reduce overfitting and improve model generalization.
-
-3. **Lasso Regression**:
-   - Adds L1 regularization, enabling feature selection by reducing some coefficients to zero.
-
 4. **Random Forest Regressor**:
    - Non-linear model leveraging decision trees and averaging to improve prediction accuracy.
 
 5. **Gradient Boosting Regressor**:
    - Combines weak learners sequentially for improved performance.
+  
+6. **Neural Network**:
+   - A computational model inspired by the structure and function of the human brain, consisting of layers of interconnected nodes (neurons) that process and learn from data to solve complex problems
 
 ---
 
@@ -78,10 +71,11 @@ Several regression models were implemented to predict the number of applications
 ---
 
 ## Key Insights
-1. Jobs offering remote options tend to attract more applications.
-2. Higher salaries positively correlate with increased application numbers.
-3. Popular locations for job postings include major metropolitan areas.
-4. Skills listed in job descriptions play a significant role in determining popularity.
+1. Remote jobs attract significantly more applications than non-remote jobs
+2. The number of views is a critical predictor of job applications across models, with its importance being most pronounced in Random Forest and XGBoost. Visibility drives application numbers
+3. Location and company size are key factors influencing applications in XGBoost, with more applications generally seen in popular locations and larger companies. 
+4. Skill category plays a limited role in predicting the number of applications
+5. The relationship between features and applications is non-linear, which aligns with the strengths of models like Random Forest, XGBoost, and Neural Networks
 
 ---
 
