@@ -57,7 +57,7 @@ Several regression models were implemented to predict the number of applications
 - Visualized insights using Matplotlib and Seaborn.
 
 ### Part 3: Model Implementation and Evaluation
-- **Train-Test Split**:
+- **Train-Test Split & K-Fold Cross Validation**:
   - Split the dataset into training and testing sets to evaluate model performance.
 
 - **Model Training**:
