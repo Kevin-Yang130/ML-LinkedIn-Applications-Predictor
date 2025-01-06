@@ -82,15 +82,11 @@ Several regression models were implemented to predict the number of applications
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LinkedIn-Job-Predictions.git
+   git clone https://github.com/Kevin-Yang130/LinkedIn-Job-Predictions.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd LinkedIn-Job-Predictions
-   ```
-3. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
    ```
 4. Run the Jupyter Notebook:
    ```bash
